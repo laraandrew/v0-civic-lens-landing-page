@@ -248,17 +248,17 @@ export default function LandingPage() {
 
           {/* First row of screenshots */}
           <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto mb-12">
-            <div className="flex flex-col items-center space-y-4 scroll-animate">
+            <div className="flex flex-col items-center space-y-20 scroll-animate">
               <div className="relative aspect-[9/16] w-full max-w-[280px]">
                 <Image
                   src="/images/PolicyPreference.gif"
                   alt="Track your representatives and their policy positions"
                   width={280}
-                  height={500}
+                  height={560}
                   className="rounded-2xl shadow-xl border hover-lift"
                 />
               </div>
-              <div className="text-center space-y-2">
+              <div className="text-center space-y-4">
                 <h3 className="text-lg font-semibold">Track Your Representatives</h3>
                 <p className="text-sm text-muted-foreground">
                   See who represents you and monitor their policy positions and voting records.
@@ -266,7 +266,7 @@ export default function LandingPage() {
               </div>
             </div>
 
-            <div className="flex flex-col items-center space-y-4 scroll-animate">
+            <div className="flex flex-col items-center space-y-20 scroll-animate">
               <div className="relative aspect-[9/16] w-full max-w-[280px]">
                 <Image
                   src="/images/Reps.gif"
@@ -276,7 +276,7 @@ export default function LandingPage() {
                   className="rounded-2xl shadow-xl border hover-lift"
                 />
               </div>
-              <div className="text-center space-y-2">
+              <div className="text-center space-y-4">
                 <h3 className="text-lg font-semibold">Follow Issues & Bills</h3>
                 <p className="text-sm text-muted-foreground">
                   Stay updated on legislation and issues that matter most to you.
@@ -284,17 +284,17 @@ export default function LandingPage() {
               </div>
             </div>
 
-            <div className="flex flex-col items-center space-y-4 scroll-animate">
+            <div className="flex flex-col items-center space-y-20 scroll-animate">
               <div className="relative aspect-[9/16] w-full max-w-[280px]">
                 <Image
-                  src="/images/screenshot-202025-11-23-20at-2010.png"
+                  src="/images/RepMeWelcome.gif"
                   alt="Track elections and stay informed about voting"
                   width={280}
                   height={560}
                   className="rounded-2xl shadow-xl border hover-lift"
                 />
               </div>
-              <div className="text-center space-y-2">
+              <div className="text-center space-y-4">
                 <h3 className="text-lg font-semibold">Election Information</h3>
                 <p className="text-sm text-muted-foreground">
                   Get details about upcoming elections and candidates on your ballot.
