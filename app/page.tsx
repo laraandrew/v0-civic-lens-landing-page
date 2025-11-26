@@ -267,6 +267,7 @@ export default function LandingPage() {
             <div className="flex flex-col items-center space-y-20 scroll-animate">
               <div className="relative aspect-[9/16] w-full max-w-[280px]">
                 <Image
+                unoptimized
                   src="/images/Reps.gif"
                   alt="Follow issues and track bills that matter to you"
                   width={280}
