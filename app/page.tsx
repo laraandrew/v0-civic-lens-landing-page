@@ -110,7 +110,7 @@ export default function LandingPage() {
             <div className="relative aspect-[9/16] w-full max-w-[300px] mx-auto">
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 blur-3xl -z-10 animate-float" />
               <Image
-                src="/images/screenshot-202025-11-23-20at-2010.png"
+                src="/images/RepMeWelcome.gif"
                 alt="RepMe app showing representative tracking"
                 width={300}
                 height={600}
@@ -251,10 +251,10 @@ export default function LandingPage() {
             <div className="flex flex-col items-center space-y-4 scroll-animate">
               <div className="relative aspect-[9/16] w-full max-w-[280px]">
                 <Image
-                  src="/images/screenshot-202025-11-23-20at-2010.png"
+                  src="/images/PolicyPreference.gif"
                   alt="Track your representatives and their policy positions"
                   width={280}
-                  height={560}
+                  height={500}
                   className="rounded-2xl shadow-xl border hover-lift"
                 />
               </div>
@@ -269,7 +269,7 @@ export default function LandingPage() {
             <div className="flex flex-col items-center space-y-4 scroll-animate">
               <div className="relative aspect-[9/16] w-full max-w-[280px]">
                 <Image
-                  src="/images/screenshot-202025-11-23-20at-2010.png"
+                  src="/images/Reps.gif"
                   alt="Follow issues and track bills that matter to you"
                   width={280}
                   height={560}

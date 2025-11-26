@@ -8,7 +8,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "RepMe - Political Transparency Made Simple",
+  title: "RepMe - Political Intelligence",
   description:
     "Track your representatives, understand legislation, and stay informed without the noise. Join the waitlist for early access.",
   generator: "v0.app",

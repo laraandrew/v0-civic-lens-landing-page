@@ -43,7 +43,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$
 ;
 ;
 const metadata = {
-    title: "RepMe - Political Transparency Made Simple",
+    title: "RepMe - Political Intelligence",
     description: "Track your representatives, understand legislation, and stay informed without the noise. Join the waitlist for early access.",
     generator: "v0.app",
     icons: {
