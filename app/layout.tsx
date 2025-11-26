@@ -1,15 +1,14 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
+import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+// Replace broken Geist imports with Inter (stable + built-in)
+const inter = Inter({ subsets: ["latin"] })
 
-// <CHANGE> Updated metadata for CivicLens landing page
 export const metadata: Metadata = {
-  title: "CivicLens - Political Transparency Made Simple",
+  title: "RepMe - Political Transparency Made Simple",
   description:
     "Track your representatives, understand legislation, and stay informed without the noise. Join the waitlist for early access.",
   generator: "v0.app",
@@ -32,8 +31,6 @@ export const metadata: Metadata = {
   },
 }
 
-// ... existing code ...
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -41,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased`}>
+      <body className={`${inter.className} antialiased`}>
         {children}
         <Analytics />
       </body>
