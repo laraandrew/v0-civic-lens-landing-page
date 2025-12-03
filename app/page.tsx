@@ -69,7 +69,7 @@ export default function LandingPage() {
                   document.getElementById('form')?.scrollIntoView({ behavior: 'smooth' });
                 }}
               >
-                Send Feedback
+                Become an Early User
               </Button>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function LandingPage() {
                 className="text-base hover-lift"
                 onClick={() => document.getElementById('form')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Send Feedback
+                Become an Early User
               </Button>
               <Button 
                 size="lg" 
@@ -127,7 +127,7 @@ export default function LandingPage() {
           <div className="mx-auto max-w-4xl text-center space-y-8 scroll-animate">
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-balance">
-                Be a Trendsetter
+                Be a Beta Tester
               </h2>
               <p className="text-lg text-muted-foreground text-pretty">
                 Become an early user and shape the future of RepMe!
