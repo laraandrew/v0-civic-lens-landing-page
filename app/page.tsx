@@ -109,7 +109,7 @@ export default function LandingPage() {
           <div className="relative mx-auto w-full max-w-md lg:max-w-lg scroll-animate-right">
             <div className="relative aspect-[9/16] w-full max-w-[300px] mx-auto">
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 blur-3xl -z-10 animate-float" />
-              <Image
+              <img
                 src="/images/RepMeWelcome.gif"
                 alt="RepMe app showing representative tracking"
                 width={300}
@@ -140,7 +140,6 @@ export default function LandingPage() {
                   height="500">
                   Loading…
                 </iframe>
-
             </div>
           </div>
         </div>
@@ -291,9 +290,8 @@ export default function LandingPage() {
 
             <div className="flex flex-col items-center space-y-20 scroll-animate">
               <div className="relative aspect-[9/16] w-full max-w-[280px]">
-                <Image
-                unoptimized
-                  src="/images/Reps.gif"
+                <img
+                  src="/images/PolicyPreference.gif"
                   alt="Follow issues and track bills that matter to you"
                   width={280}
                   height={560}
@@ -310,7 +308,7 @@ export default function LandingPage() {
 
             <div className="flex flex-col items-center space-y-20 scroll-animate">
               <div className="relative aspect-[9/16] w-full max-w-[280px]">
-                <Image
+                <img
                   src="/images/RepMeWelcome.gif"
                   alt="Track elections and stay informed about voting"
                   width={280}
